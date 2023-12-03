@@ -115,9 +115,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="/petapp/contact">Contact</a>
               </li>
-              <li class="nav-item">
+              <!-- <li class="nav-item">
                 <a class="nav-link" href="https://bot.dialogflow.com/b24d28ad-43a7-41d3-890c-62665793b989">dialogflow</a>
-              </li>
+              </li> -->
               <li class="nav-item">
                 <a class="nav-link" href="/petapp/clinic_address">Clinic Address</a>
               </li>
@@ -133,14 +133,15 @@
       {% endblock %}
 
       <!-- chatbot by dialogflow-->
+      <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
       <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
       <df-messenger
-        location="asia-southeast1"
+        location="us-central1"
         project-id="fypdemo-401606"
-        agent-id="bd6bf8b8-0a5f-41d5-a706-221404d69573"
+        agent-id="f51f5799-e880-4361-aa91-530c07dc0be4"
         language-code="en">
         <df-messenger-chat-bubble
-         chat-title="Pet Care">
+         chat-title="Meow">
         </df-messenger-chat-bubble>
       </df-messenger>
       <style>
